@@ -9,9 +9,11 @@ $result->execute();
 $response = "";
 
 while($row = $result->fetch()) {
-    echo("<div class='item'>
+    $response .= "<div class='item'>
         <span class='item_title'>" . $row['title'] . "</span>" .
         "<span class='item_desc'>" . $row['description'] . "</span>
-    </div>");
+    </div>";
 }
+
+echo($response);
 ?>

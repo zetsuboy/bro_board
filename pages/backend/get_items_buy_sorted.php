@@ -2,7 +2,9 @@
 
 include_once("dbconnect.php");
 
-$sql = "SELECT * FROM items WHERE operation = 'Продать'";
+$type = $_POST['type'];
+
+$sql = "SELECT * FROM items WHERE operation = 'Продать' ORDER BY date " . $type;
 $result = $conn->prepare($sql);
 $result->execute();
 

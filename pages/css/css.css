@@ -59,12 +59,16 @@ body, html {
 
 .feed_content_head {
     font-size: 22px;
-    height: 100px;
+    height: 40px;
 }
 
 .feed_content_head #title, .feed_content #id {
     margin-right: 30%;
     margin-left: 5%;
+}
+
+.sort {
+    font-size: 20px;
 }
 
 .feed_content {

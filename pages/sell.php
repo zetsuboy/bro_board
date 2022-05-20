@@ -22,10 +22,16 @@
             <span id="title">Название</span>
             <span id="desc">Описание</span>
         </div>
+        <div class="sort">
+            <span>Сортировка: </span>
+            <a href="" id="sort_desc">DESC</a>
+            <a href="" id="sort_asc">ASC</a>
+        </div>
         <div class="feed_content">
             <?php include 'backend/get_items_sell.php'; ?>
         </div>
     </div>
 </div>
+<script src="javascript/sort_sell.js"></script>
 </body>
 </html>
