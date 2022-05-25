@@ -3,9 +3,9 @@ $(document).ready(function() {
     $("#sort_desc").click(function (event){
         event.preventDefault();
         var request = $.ajax({
-            url: "/pages/backend/get_items_buy_sorted.php",
+            url: "show/buyAction",
             type: "post",
-            data: {type: "DESC"}
+            data: {sort: 1, type: "DESC"}
         });
 
         request.done(function(response, textStatus, jqXHR){
@@ -20,9 +20,9 @@ $(document).ready(function() {
     $("#sort_asc").click(function (event){
         event.preventDefault();
         var request = $.ajax({
-            url: "/pages/backend/get_items_buy_sorted.php",
+            url: "show/buyAction",
             type: "post",
-            data: {type: "ASC"}
+            data: {sort: 1, type: "DESC"}
         });
 
         request.done(function(response, textStatus, jqXHR){

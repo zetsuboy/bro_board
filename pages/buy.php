@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="../backend/Controllers/Templates/css/css.css">
     <title>Доска Объявлений - купить</title>
     <script
         src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -32,6 +32,6 @@
             </div>
         </div>
     </div>
-    <script src="javascript/sort_buy.js"></script>
+    <script src="../backend/Controllers/Templates/javascript/sort_buy.js"></script>
 </body>
 </html>

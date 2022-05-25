@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../backend/Controllers/Templates/css/css.css">
+    <link rel="stylesheet" href="/backend/Controllers/Templates/css/css.css">
     <title>Доска Объявлений - добавить</title>
     <script
         src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -14,9 +14,9 @@
     <div class="feed">
         <div class="feed_head">
             <a id="feed_head_title">Объявления о продаже</a>
-            <a class="redirect" href="buy.php"><b>Покупка</b></a>
-            <a class="redirect" href="sell.php"><b>Продажа</b></a>
-            <a class="redirect" href="add_item.php"><b>Оставить объявление</b></a>
+            <a class="redirect" href="buy"><b>Покупка</b></a>
+            <a class="redirect" href="sell"><b>Продажа</b></a>
+            <a class="redirect" href="add"><b>Оставить объявление</b></a>
         </div>
         <form class="item_form">
             <div class="form_title" >
@@ -38,6 +38,6 @@
         </form>
     </div>
 </div>
-<script src="../backend/Controllers/Templates/javascript/add_item.js"></script>
+<script src="javascript/add_item.js"></script>
 </body>
 </html>
